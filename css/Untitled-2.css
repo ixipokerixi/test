@@ -1,0 +1,23 @@
+form{
+	background-color: cornflowerblue;
+	padding: 10px;
+	border-radius: 20px;
+	direction: rtl;
+	width: 250px;
+	margin: 50px auto;
+	font-size: 20px;
+}
+form input{
+	margin: 5px;
+}
+div{
+	text-align: center;
+}
+#cheng{
+	font-size: 20px;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	font-family: "IRANSans";
+}
