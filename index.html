@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" href="css/Untitled-2.css">
+	<script src="script/Untitled-3.js"></script>
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<form action="">
+		<label for="text">متن:</label>
+		<input id="text" name="text" type="text" value="-" oninput="textcheng()">
+		<br>
+	
+		<label for="color">رنگ:</label>
+		<input id="color" name="color" type="color" oninput="colorcheng()">
+		<br>
+		<label for="size">اندازه:</label>
+		<input id="size" name="size" type="range" min="30" max="150" value="50" oninput="sizecheng()">
+		<br>
+		<label  for="">تراز:</label>
+		<label for="wr">راست</label>
+		<input id="wr" name="ra" type="radio" oninput="aligncheng()">
+		<label for="cen">وسط</label>
+		<input id="cen" name="ra" type="radio" checked oninput="aligncheng()"> 
+		<label for="le">چپ</label>
+		<input id="le" name="ra" type="radio" oninput="aligncheng()">
+		<br>
+		<label for="che">نمایش:</label>
+		<input id="che" type="checkbox" checked oninput="showcheng()">
+		<br>
+		
+		</div>		
+	</form>
+			<p id="min">-</p>
+</body>
+</html>
